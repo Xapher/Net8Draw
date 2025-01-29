@@ -1,0 +1,237 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "ComputeSharp/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "ComputeSharp.Core": "3.0.1"
+        },
+        "compile": {
+          "lib/net8.0/ComputeSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ComputeSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/ComputeSharp.targets": {}
+        }
+      },
+      "ComputeSharp.Core/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/ComputeSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ComputeSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/ComputeSharp.Core.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DrawingCanvas/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DrawingCanvas.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DrawingCanvas.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "ComputeSharp/3.0.1": {
+      "sha512": "MhZnKzZFblvnpl0GPDQbwKhhaBy1KmrRkV5a+Qsp/9yDna4r8BhXgNUpwkk8q61/httnj23eKkcp3Nojm1hIzQ==",
+      "type": "package",
+      "path": "computesharp/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "analyzers/dotnet/cs/ComputeSharp.CodeFixers.dll",
+        "analyzers/dotnet/cs/ComputeSharp.SourceGenerators.dll",
+        "build/ComputeSharp.targets",
+        "buildTransitive/ComputeSharp.targets",
+        "computesharp.3.0.1.nupkg.sha512",
+        "computesharp.nuspec",
+        "icon.png",
+        "lib/net8.0/ComputeSharp.dll",
+        "lib/net8.0/ComputeSharp.xml"
+      ]
+    },
+    "ComputeSharp.Core/3.0.1": {
+      "sha512": "sXFBL6fbrV+E9NRIvaCDXO8fxeXrnMWLnPoECu7VjcIKduL3AbQnhKo0rEboQmpbkbFljlqP3xOzsdBkbaBpLA==",
+      "type": "package",
+      "path": "computesharp.core/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "analyzers/dotnet/cs/ComputeSharp.Core.SourceGenerators.dll",
+        "build/ComputeSharp.Core.targets",
+        "buildTransitive/ComputeSharp.Core.targets",
+        "computesharp.core.3.0.1.nupkg.sha512",
+        "computesharp.core.nuspec",
+        "icon.png",
+        "lib/net8.0/ComputeSharp.Core.dll",
+        "lib/net8.0/ComputeSharp.Core.xml"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "DrawingCanvas/1.0.0": {
+      "type": "project",
+      "path": "../DrawingCanvas/DrawingCanvas.csproj",
+      "msbuildProject": "../DrawingCanvas/DrawingCanvas.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "ComputeSharp >= 3.0.1",
+      "DrawingCanvas >= 1.0.0",
+      "Newtonsoft.Json >= 13.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Xapher\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "Z:\\repos\\NET8Draw\\NET8Draw\\NET8Draw.csproj",
+      "projectName": "NET8Draw",
+      "projectPath": "Z:\\repos\\NET8Draw\\NET8Draw\\NET8Draw.csproj",
+      "packagesPath": "C:\\Users\\Xapher\\.nuget\\packages\\",
+      "outputPath": "Z:\\repos\\NET8Draw\\NET8Draw\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Xapher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "Z:\\repos\\NET8Draw\\DrawingCanvas\\DrawingCanvas.csproj": {
+              "projectPath": "Z:\\repos\\NET8Draw\\DrawingCanvas\\DrawingCanvas.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "ComputeSharp": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
+}

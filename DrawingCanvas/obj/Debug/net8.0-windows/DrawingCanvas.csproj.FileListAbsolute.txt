@@ -1,0 +1,16 @@
+Z:\repos\NET8Draw\DrawingCanvas\bin\Debug\net8.0-windows\DrawingCanvas.deps.json
+Z:\repos\NET8Draw\DrawingCanvas\bin\Debug\net8.0-windows\DrawingCanvas.dll
+Z:\repos\NET8Draw\DrawingCanvas\bin\Debug\net8.0-windows\DrawingCanvas.pdb
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\Canvas.g.cs
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\DrawingCanvas_MarkupCompile.cache
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\DrawingCanvas_MarkupCompile.lref
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\Canvas.baml
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\DrawingCanvas.g.resources
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\DrawingCanvas.GeneratedMSBuildEditorConfig.editorconfig
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\DrawingCanvas.AssemblyInfoInputs.cache
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\DrawingCanvas.AssemblyInfo.cs
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\DrawingCanvas.csproj.CoreCompileInputs.cache
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\DrawingCanvas.dll
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\refint\DrawingCanvas.dll
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\DrawingCanvas.pdb
+Z:\repos\NET8Draw\DrawingCanvas\obj\Debug\net8.0-windows\ref\DrawingCanvas.dll

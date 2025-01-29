@@ -1,0 +1,16 @@
+<UserControl Background="DarkGray" x:Class="DrawingCanvas.Canvas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DrawingCanvas"
+             mc:Ignorable="d" 
+			 xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+			 >
+    <Grid x:Name="canvasListener">
+        <Image Name="RadiusDisplay" Source="/DrawingCanvas;component/Radius.png" Width="4" Height="4"></Image>
+		<WindowsFormsHost Background="AliceBlue" IsHitTestVisible="False" Width="0" Height="0" Name="CanvasContainer">
+            <wf:PictureBox Visible="False" Capture="False" x:Name="CanvasImage" Dock="fill"></wf:PictureBox>
+		</WindowsFormsHost>
+	</Grid>
+</UserControl>

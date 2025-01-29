@@ -1,0 +1,25 @@
+{
+  "CanvasData": {
+    "Width": 1920,
+    "Height": 1080,
+    "Hue": 255
+  },
+  "BrushData": {
+    "LastBrush": "pen",
+    "Size": 5,
+    "Opacity": 1.0,
+    "Color": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "ApplicationData": {
+    "PositionX": -8,
+    "PositionY": -8,
+    "Width": 1936,
+    "Height": 1096,
+    "WindowMode": 2
+  }
+}
